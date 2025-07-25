@@ -1,3 +1,6 @@
+body {
+    background-color: #cccccc9e;
+}
 * {
     margin:0;
     font-family: arial;
@@ -7,7 +10,9 @@
     height:60px;
     background-color: #0f1111;
     color:white;
-
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .nav-logo {
     height:50px;
@@ -25,3 +30,119 @@
 .border:hover{
     border:1.2px solid white;
 }
+.address1{
+    color:#CCCCCC;
+    font-size:0.85rem; 
+    margin-left:15px; 
+}
+.address2{
+  font-size:1rem;
+  margin-left: 3px;
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+.search{
+    display:flex;
+    width:620px;
+    height:40px;
+    border-radius:5px;
+    justify-content: space-evenly;
+}
+.search-select{
+    background-color:#F3F3F3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:1.2rem;
+    background-color:#febd68;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    color:#0f1111;
+}
+
+.search:hover{
+    border:2px solid orange;
+}
+
+span{
+    font-size:0.7rem;
+}
+
+.nav-signin2{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+.nav-return2{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+.Cart i {
+    font-size:30px;
+}
+
+.Cart {
+    font-size:0.85rem;
+    font-weight: 700;
+}
+.panel{
+    display:flex;
+    height:40px;
+    background-color: #222f3d;
+    color:white;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display:inline;
+    margin-left:15px;
+}
+.panel-ops {
+    width:70%;
+    font-size:0.85rem;
+}
+.panel-deals{
+    font-size:0.95rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height:355px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-message {
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    height:40px;
+    color:#0f1111;
+    font-weight: 700;
+    width:80%;
+    margin-bottom: 25px;
+}
+.hero-message a {
+    color: #007185;
+}
+
