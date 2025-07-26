@@ -1,1 +1,1 @@
-# A simple and a basic copy of Amazon
+# A very simple and a basic clone of Amazon.
