@@ -1,1 +1,1 @@
-# Amazon-Clone
+# A simple and a basic copy of Amazon
